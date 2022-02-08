@@ -29,19 +29,10 @@ li{
     display:inline-block;
    
 }
-/*propiedad flexbox y colores del navegador*/
-.navegador{
-    display: flex  ;
-    justify-content: flex-end;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #6b95ff;
-    color:#f3f3f3;
-    padding: 5px;
-    
-    
-}
 
+    
+
+/*Navegador*/
 .nav{
    background-color:#6b95ff;
 }
@@ -76,14 +67,8 @@ li a:hover{
    
 }
 
-.fotos-servicios{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
 
+/*Titulos de los html*/
 .titulo,.servicios,.siniestros,.compañias{
     color:#005d9d ;
     font-family: Arial, Helvetica, sans-serif ;
@@ -97,7 +82,7 @@ li a:hover{
     text-align: left;
     font-size: 40px;
 }
-
+/*Fondo del body*/
 body {
     background-color: #e0e0ed;
  
@@ -129,12 +114,15 @@ body {
         line-height: 50px;
      }
 
+     /*Subtitulos*/
   .subtitulo {
       color: grey ;
       font-family: Arial, Helvetica, sans-serif;
     text-align: center;
   }
-  
+
+
+  /*Propiedades de los parrafos*/
   .parrafo{
       color: grey;
       font-family: Arial, Helvetica, sans-serif;
@@ -163,7 +151,7 @@ body {
       text-align: left;
       color:#005d9d;
   }
-
+/*foto del logo*/
 .fotologo {
     
     width: 250px;
@@ -173,23 +161,19 @@ body {
     
     
 }
-/*uso grid para la cuadricula de imagenes*/
-.auto,.moto,.casa,.familia,.ahorro,.vida {
+/*uso grid para las imagenes de las comáñias*/
+img.seguros {
    display: grid;
-   grid-template-columns: 3;
+   grid-template-columns: 1;
    grid-row: 2;
-   margin:10px;
-   width: 350px;
-   height: 350px;
-   border-radius: 30px;
-
- }
+ 
+   }
 
  
 
      
  
- 
+ /*Propiedades para las imagenes*/
  .image  a {
          display: none;
      }
