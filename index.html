@@ -38,56 +38,46 @@
 </head>
 <body>
     
-    <header>
-<!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" id="Incio">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top"><img src="Multimedia/marcelobatch-remove.png" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <svg class="svg-inline--fa fa-bars fa-w-14 ms-1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars ms-1"></i> Font Awesome fontawesome.com -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Siniestros">Siniestros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="imagen-header" class="masthead">
+  <div class="container1">
+      <h1 class="titulo" class="masthead-heading text-uppercase">Servicios en Seguros</h1>
+      <h2 class="titulo" class="masthead-subheading text-uppercase">Tenemos lo mejor en Seguros</h2>
+      <div class="companias">
+      <img src="Multimedia/ma-removebg-preview.png" class="rounded float-start" alt="Logo mercantil andina">
+      <img src="multimedia/segurorivadavia-removebg-preview.png" class="rounded float" alt="logo seguros rivadavia">
+      <img src="multimedia/zurich-removebg-preview.png" class="rounded float-start" alt="logo zurich seguros">
+      <img src="multimedia/swiss-removebg-preview.png" class="rounded float-start" alt="logo swiss medical seguros">
+    </div>
+    </div>
 
-      <!--Foto de la marca-->
-      <section class="imagen-header">
-        <img class="fotologo" src="Multimedia/marcelobatch-remove.png" alt="Logo de Marcelo Batch Seguros">
-        
-        <!--Lista para navegador-->
-        <nav>
-        <ul class="nav nav-pills" class="navegador">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Nosotros">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Compañias">Compañias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Siniestros">Siniestros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contacto">Contacto</a>
-              </li>
-            
-          </ul>
-        </nav>
-    </section>
-    
-
-        <h1 class="titulo"> Servicios en Seguros </h1>
-        <h2 class="subtitulo"> Tenemos lo mejor en seguros </h2>
-        <h2 class="servicios">
-            Servicios
-        </h2>
-      
-       
-         
-
-    </header>
-    <!--fin del encabezado-->
+</header>
 
     <!--Imagenes de los sevicios-->
 
-    <section class="container" class="fotos-servicios"  id="Servicios">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <section  class="fotos-servicios"  id="Servicios">
+
+        <h2 class="servicios">Servicios</h2>
+
+        <div  id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -191,24 +181,7 @@
        
     </section>
 
-    <section >
-      <section data-aos="fade-zoom-in"
-      data-aos-easing="ease-in-back"
-      data-aos-delay="300"
-      data-aos-offset="0"  id="Compañias">
-      <div  class="seguros">
-        <h2 class="compañias">
-          Compañias
-        </h2>
-        <p class="parrafo1">
-          Trabajamos con las mejores compañias de seguros, para dar respuestas a todas sus necesidades.
-        </p>
-        <img src="Multimedia/ma-removebg-preview.png" class="rounded float-start" alt="Logo mercantil andina">
-        <img src="Multimedia/segurorivadavia-removebg-preview.png" class="rounded float" alt="logo seguros rivadavia">
-        <img src="Multimedia/zurich-removebg-preview.png" class="rounded float-start" alt="logo zurich seguros">
-        <img src="Multimedia/swiss-removebg-preview.png" class="rounded float-start" alt="logo swiss medical seguros">
-    </div>
-  </section>
+
 
     <!--GRID CON BOOTSTRAP-->
 

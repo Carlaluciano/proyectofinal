@@ -23,57 +23,82 @@ CSS
 
     
 
-/*Navegador horizontal a la izquierda*/
- 
-li{
-    display:inline-block;
-   
-}
-
     
 
-/*Navegador*/
-.nav{
-   background-color:#6b95ff;
+/*Navegador-Header*/
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
 }
-li a{
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+nav {
     display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    
+ }
 
+ .navbar-brand img{
+     width: 150px;
+     height: 150px;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ .titulo{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 40px;
+     color:#212529 ;
+ }
+
+ .companias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+ }
+
+ .imagen-header{
+    background-image: url("../Multimedia/oficina.jpg");
+    height: 700px;
     }
 
-li a:hover{
-    background-color: #375a9f;
-    
-}
-/*efecto parallax del header*/
-.imagen-header{
-    background-image: url("../Multimedia/oficina.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-.container{
-    padding:150px;
-}
-
-.img-conteiner{
-    display: flex;
-   
-}
+   .container1{
+       padding: 50px;
+   }
 
 
 /*Titulos de los html*/
-.titulo,.servicios,.siniestros,.compañias{
+.servicios,.siniestros,.compañias{
     color:#005d9d ;
     font-family: Arial, Helvetica, sans-serif ;
     text-align: center;
     font-size: 40px;
+ }
+
+ .servicios{
+     padding: 100px;
  }
 
 .nosotros{
@@ -161,13 +186,6 @@ body {
     
     
 }
-/*uso grid para las imagenes de las comáñias*/
-img.seguros {
-   display: grid;
-   grid-template-columns: 1;
-   grid-row: 2;
- 
-   }
 
  
 
