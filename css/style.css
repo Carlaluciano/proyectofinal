@@ -8,7 +8,12 @@ CSS
 /* Moble*/
      
 @media only screen and (max-width: 480px) {
-    
+    .parrafosiniestro{
+        text-indent: none;
+    }
+    .seguros,.siniestro1,.nosotros1{
+        padding: none;
+    }
 
    }
 /*tablet*/
